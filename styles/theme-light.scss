@@ -1,0 +1,128 @@
+@import "./variables";
+
+[vs-theme="light"] {
+  --theme__bg: var(--primary-50);
+
+  --theme__text-color__headings: var(--gray-900);
+  --theme__text-color__primary: var(--gray-200);
+  --theme__text-secondary__secondary: var(--gray-200);
+  --theme__text-color__muted: var(--gray-100);
+  --theme__icon__primary: var(--gray-100);
+
+  --theme__card-primary__border: linear-gradient(
+    180deg,
+    #f7f7ff 0%,
+    rgba(251, 250, 255, 0) 100%
+  );
+  --theme__card-primary__bg: var(--primary-600);
+  --theme__card-primary__contrast-text: var(--primary-100);
+  --theme__card-primary__muted-text: var(--primary-300);
+  --theme__card-primary__input__bg: var(--primary-500);
+  --theme__card-primary__input__placeholder: var(--primary-300);
+  --theme__card-primary__input__color: var(--white);
+  --theme__card-primary__button__bg: var(--primary-400);
+  --theme__card-primary__button__bg--hover: var(--primary-300);
+
+  --theme__inline-link: var(--primary-500);
+  --theme__inline-link--hover: var(--primary-400);
+
+  --theme__card__background: var(--primary-100);
+  --theme__card__muted: var(--gray-100);
+  --theme__card__border__color: #ebe9fe;
+
+  --theme__card__button-secondary__background: var(--gray-50);
+  --theme__card__button-secondary__color: var(--gray-200);
+  --theme__card__button-primary__background: var(--primary-500);
+  --theme__card__button-primary__color: var(--white);
+
+  --theme__card-exchanger__wrapper: linear-gradient(
+    180deg,
+    #f4f3ff 0%,
+    rgba(218, 208, 255, 0) 100%
+  );
+  --theme__card-exchanger__background: var(--primary-100);
+  --theme__card-exchanger__select: var(--primary-50);
+  --theme__card-exchanger__chip: var(--gray-100);
+  --theme__card-exchanger__chip-color: var(--white);
+  --theme__card-exchanger__select-hover: var(--primary-100);
+
+  --theme__card-gradient__background: linear-gradient(
+    180deg,
+    #f0eeff 0%,
+    rgba(244, 243, 255, 0) 59.9%
+  );
+  --theme__card-gradient__wrapper: linear-gradient(
+    180deg,
+    #f7f7ff 0%,
+    rgba(251, 250, 255, 0) 100%
+  );
+  --theme__card-gradient__chart: linear-gradient(
+    180deg,
+    #ebe9fe 0%,
+    rgba(244, 243, 255, 0) 59.9%
+  );
+
+  --theme__footer__border__color: var(--gray-50);
+
+  --theme__navbar-link-color: var(--theme__text-secondary__secondary);
+  --theme__navbar-link-color-active: var(--primary-500);
+  --theme__navbar-section__card__background: var(--primary-50);
+  --theme__dander: #ff5974;
+  --theme__success: #2bad70;
+
+  --theme__navbar-section__card__sidebar__text__color: var(
+    --theme__text-secondary__secondary
+  );
+
+  --theme__card-gradient__background: linear-gradient(
+    180deg,
+    #f0eeff 0%,
+    rgba(244, 243, 255, 0) 59.9%
+  );
+
+  --theme__monitoring-text-color: var(--gray-100);
+  --theme-people-say-job-color: var(--gray-100);
+
+  --theme-chart-tooltop: var(--white);
+  --theme-footer-copyright: var(--gray-200);
+
+  --theme-backdrop: rgba(244, 243, 255, 0.64);
+
+  --popup-wrapper: linear-gradient(
+    180deg,
+    #f7f7ff 0%,
+    rgba(251, 250, 255, 0) 100%
+  );
+  --popup-bg: var(--primary-600);
+  --popup-button: var(--primary-500);
+  --popup-circle-active: var(--primary-400);
+  --popup-circle: var(--primary-500);
+
+  --learn-block-button: var(--primary-200);
+  --learn-block-button-text: var(--primary-500);
+
+  --table-bg: var(--primary-100);
+  --table-row-cell-color: var(--gray-200);
+  --table-row-first-cell-color: var(--gray-100);
+  --table-row-cell-border: var(--gray-50);
+  --table-header-cell-border: var(--gray-50);
+  --table-header-cell-color: var(--primary-500);
+
+  --breadcrumb-color: var(--primary-500);
+  --breadcrumb-color-active: var(--gray-100);
+
+  --accordion-bg: var(--primary-100);
+  --accordion-title-color: var(--gray-900);
+  --accordion-text-color: var(--gray-200);
+  --accordion-prefix-color: var(--gray-100);
+
+  --blog-card-bg: var(--primary-100);
+  --blog-card-tip-bg: var(--gray-50);
+  --blog-card-tip-color: var(--gray-500);
+  --blog-card-title-color: var(--gray-900);
+  --blog-card-text-color: var(--gray-200);
+  --blog-card-footer-text-color: var(--gray-100);
+
+  --chart-range-color: var(--gray-200);
+  --chart-range-bg: var(--gray-50);
+}

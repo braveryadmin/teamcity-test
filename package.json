@@ -1,0 +1,44 @@
+{
+  "name": "beaver-dealer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/toast": "^3.3.1",
+    "ant-design-vue": "^1.7.8",
+    "aos": "^2.3.4",
+    "core-js": "^3.19.3",
+    "dayjs": "^1.10.7",
+    "element-ui": "^2.15.6",
+    "highcharts": "^9.3.2",
+    "nuxt": "^2.15.8",
+    "nuxt-highcharts": "^2.0.2",
+    "v-click-outside": "^3.1.2",
+    "v-idle": "^0.2.1",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "vue2-transitions": "^0.3.0",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.2.1",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "fibers": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.17.2",
+    "sass-loader": "^10.2.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
